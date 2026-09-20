@@ -14,6 +14,10 @@ Pan-African B2B FMCG trade OS — merchant ordering, distributor fulfillment, af
 | `website/` | Marketing + registration → platform API |
 | `backend/` | Unified API, ledger, Paystack webhooks |
 
+## Repository layout
+
+The root `OpenMart` repository tracks `merchant-app/` directly. The website remains an independent repository at `https://github.com/TheLionKing7/openmarket`; the root repository records its current commit as a gitlink.
+
 ## Git hooks (all projects)
 
 Husky lives at the **workspace root** (`.husky/`). On `npm install` in `website/`, hooks are wired to run typechecks across every app before each commit.
