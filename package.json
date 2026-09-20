@@ -1,0 +1,12 @@
+{
+  "name": "openmarket",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "node scripts/pre-commit-check.mjs",
+    "prepare": "node scripts/setup-husky.mjs"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
